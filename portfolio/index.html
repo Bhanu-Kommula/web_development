@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Flexbox Example</title>
+  <link rel="stylesheet" href="styles.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+
+
+<body>
+  
+  <script>
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    };
+</script>
+
+  <section name="header">
+    <nav>
+      <ul>
+        <li class="home-link"><a href="#hero">Bhanu Prasad</a></li> <!-- Home link using class for top section -->
+        <div class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+  </section>
+  
+  
+  <!-- Add an ID for the top of the page -->
+  <div id="top"></div>
+  
+
+
+<section name="hero" class="hero" id="hero">
+  <img src="Bhanu.jpg" alt="Bhanu Prasad Kommula" style="height: 320px;"> <!-- Ensure paths and attributes are correct -->
+  <div class="hero_text">
+      <h1>Hi, I'm Bhanu Prasad Kommula, <br>  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; 
+        &nbsp;  &nbsp; &nbsp;       a Full Stack Java Developer.</h1>
+      <h4>Building scalable, cloud-native solutions with Java, Spring Boot, and AWS. <br>Experienced in enhancing backend performance and deploying robust microservices architecture.</h4>
+      <div class="social-icons">
+        <a href="https://github.com/Bhanu-Kommula" target="_blank"><i class="fab fa-github"></i></a>
+
+        <a href="https://www.linkedin.com/in/bhanukommula" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    
+      <button> <a href="#projects" > View Projects </a></button>
+  </div>
+</section>
+
+
+
+
+<div id = "about" class="about">
+  <h1 class="animate-on-scroll">About Me</h1>
+  <h4 class="animate-on-scroll">As a skilled Back-End Developer, I specialize in building scalable, cloud-native solutions. I have a solid background in designing and deploying enterprise-level applications, optimizing backend performance, and integrating real-time data processing workflows using Java, Spring Boot, and AWS.</h4>
+
+  <h4  class="animate-on-scroll"> At Accenture, I developed and optimized applications that improved backend performance and designed RESTful APIs to enhance system scalability and reduce response time. I also have experience deploying microservices with Docker and Kubernetes, reducing deployment times. My expertise with AWS services like Lambda, EC2, and SQS has enabled efficient cloud-native solutions, while Kafka has helped me manage real-time data processing at scale.</h4>
+  <h4 class="animate-on-scroll">In addition to my professional experience, I hold a Master’s in Data Science from the University of North Texas, where I focused on machine learning, data visualization, and database management. I’m also certified in AWS and Azure, and I continuously work on expanding my technical expertise.</h4>
+  <h4 class="animate-on-scroll">Beyond work, I enjoy participating in coding competitions like Hexathon and SMART India Hackathon, where I’ve honed my problem-solving skills. I also love sharing knowledge through workshops and coding competitions, helping to foster a community of developers.</h4>
+</div>
+
+
+
+
+
+
+<section id = "skills" class="skills-section">
+  <h2>Technical Proficiencies</h2>
+  
+  <div class="skills-grid">
+    
+    <!-- Programming Languages -->
+    <div class="skill-card">
+      <h3>Programming Languages</h3>
+      <ul class="skill-list">
+        <li>Java</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+      </ul>
+    </div>
+
+    <!-- Frameworks & Libraries -->
+    <div class="skill-card">
+      <h3>Frameworks & Libraries</h3>
+      <ul class="skill-list">
+        <li>Spring & Spring Boot</li>
+        <li>Hibernate</li>
+        <li>JDBC</li>
+        <li>JSPs</li>
+      </ul>
+    </div>
+
+    <!-- Cloud Technologies -->
+    <div class="skill-card">
+      <h3>Cloud Technologies</h3>
+      <ul class="skill-list">
+        <li>Amazon Web Services</li>
+        <li>Azure</li>
+      </ul>
+    </div>
+
+    <!-- Databases -->
+    <div class="skill-card">
+      <h3>Databases</h3>
+      <ul class="skill-list">
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Oracle</li>
+      </ul>
+    </div>
+
+    <!-- DevOps Tools -->
+    <div class="skill-card">
+      <h3>DevOps Tools</h3>
+      <ul class="skill-list">
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>Jenkins</li>
+        <li>Maven</li>
+        <li>CI/CD </li>
+      </ul>
+    </div>
+
+    <!-- Web Technologies -->
+    <div class="skill-card">
+      <h3>Web Technologies</h3>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>RESTful Web Services</li>
+      </ul>
+    </div>
+
+    <!-- Other Tools -->
+    <div class="skill-card">
+      <h3>Other Tools</h3>
+      <ul class="skill-list">
+        <li>Apache Kafka</li>
+        <li>JUnit</li>
+        <li>IntelliJ IDEA</li>
+        <li>Eclipse</li>
+        <li>Visual Studio Code</li>
+      </ul>
+    </div>
+  
+  </div>
+</section>
+
+
+<section id="experience" class="experience">
+  <h2>Professional Experience</h2>
+  <div class="job">
+      <h3>Accenture Solutions Pvt Ltd – Associate Software Engineer</h3>
+      <p class="job-details">Hyderabad, India | April 2021 – July 2022</p>
+      <ul>
+          <li>Developed and optimized enterprise-level applications using Java, Spring Boot, and Hibernate, resulting in a 25% improvement in backend performance.</li>
+          <li>Designed and implemented scalable RESTful APIs, enhancing system scalability and reducing response times by 20%, which significantly improved user experience.</li>
+          <li>Deployed microservices architectures using Docker and Kubernetes, leading to 30% faster deployment times and increased system availability.</li>
+          <li>Integrated AWS services such as Lambda, EC2, and SQS into workflows, enabling cost-efficient, cloud-native solutions.</li>
+          <li>Utilized Apache Kafka for real-time data streaming, improving data processing efficiency and ensuring stability under high traffic loads.</li>
+      </ul>
+  </div>
+</section>
+
+<section id = "projects" class="projects-section">
+  <h2>Projects</h2>
+
+  <div class="projects-container">
+      <!-- Java Core Projects -->
+      <div class="project-card" id="java-core">
+          <h3>Java Core Projects</h3>
+          <p>Projects include core Java concepts such as OOP, multi-threading, and collections.</p>
+          <a href="Core_java.html" class="project-link">View Project</a>
+      </div>
+
+      <!-- Spring Boot & RESTful API Projects -->
+      <div class="project-card" id="spring-boot">
+          <h3>Spring Boot & RESTful API Projects</h3>
+          <p>Projects include Spring Boot, RESTful web services, Hibernate, and JPA.</p>
+          <a href="#spring-boot" class="project-link">View Project</a>
+      </div>
+
+      <!-- Database Projects -->
+      <div class="project-card" id="database">
+          <h3>Database Projects</h3>
+          <p>Projects include MySQL, MongoDB, Oracle, and database design with Hibernate ORM.</p>
+          <a href="#database" class="project-link">View Project</a>
+      </div>
+
+      <!-- Microservices Projects -->
+      <div class="project-card" id="microservices">
+          <h3>Microservices Projects</h3>
+          <p>Projects include microservices architecture, Spring Cloud, Docker, and Kubernetes.</p>
+          <a href="#microservices" class="project-link">View Project</a>
+      </div>
+
+      <!-- Cloud-Native & DevOps Projects -->
+      <div class="project-card" id="cloud-devops">
+          <h3>Cloud-Native & DevOps Projects</h3>
+          <p>Projects include AWS, Azure, CI/CD pipelines, Docker, and Kubernetes.</p>
+          <a href="#cloud-devops" class="project-link">View Project</a>
+      </div>
+  </div>
+</section>
+
+
+<section id ="education" class="education">
+  <h2>Education & Certifications</h2>
+  
+  <!-- Education Details -->
+  <div class="education-details">
+      <h3>University of North Texas</h3>
+      <p class="degree">Master of Science in Data Science</p>
+      <p class="location">Denton, TX | August 2022 – May 2024 (Expected)</p>
+      <p class="focus"><strong>Focus:</strong> Data Science, Machine Learning, Data Visualization, Database Management</p>
+      <p class="coursework"><strong>Key Coursework:</strong> Data Science, Machine Learning, Python, DBMS, Tableau</p>
+  </div>
+
+  <div class="education-details">
+      <h3>Jawaharlal Nehru Technological University</h3>
+      <p class="degree">Bachelor of Technology in Computer Science</p>
+      <p class="location">India | June 2017 – August 2021</p>
+      <p class="focus"><strong>Focus:</strong> Software Engineering, Data Structures, Java Programming</p>
+  </div>
+  
+  <!-- Certifications Section -->
+  <div class="certifications">
+      <h3>Certifications</h3>
+      <ul>
+          <li>AWS Certified Developer – Associate</li>
+          <li>Microsoft Azure – AZ-900, AZ-303</li>
+          <li>Elite Certification – DBMS, Java (NPTEL)</li>
+      </ul>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+   <h2>Contact Me</h2>
+  
+ <div class="contact-card">
+  <!-- Contact Information --> <div class="contact-info">
+ <div class="contact-item">
+   <i class="fas fa-envelope"></i>
+ <p>Email: <a href="mailto:bhanuprasadkommula98@gmail.com">bhanuprasadkommula98@gmail.com</a></p>
+</div>
+<div class="contact-item">
+ <i class="fas fa-phone-alt"></i>
+<p>Phone: <a href="tel:+19726545486">+1 (972) 654-5486</a></p>
+   </div>
+ <div class="contact-item">
+  <i class="fas fa-map-marker-alt"></i>
+ <p>Location: Denton, TX</p>
+  </div>
+ <p class="cta">Feel free to reach out for collaborations, job opportunities, or just to connect!</p>
+  </div>
+  
+  <!-- Social Media Links -->
+  <div class="social-media">
+  <a href="https://www.linkedin.com/in/bhanukommula" target="_blank" class="social-icon linkedin">
+   <i class="fab fa-linkedin"></i> LinkedIn
+   </a>
+   <a href="https://github.com/Bhanu-Kommula" target="_blank" class="social-icon github">
+  <i class="fab fa-github"></i> GitHub
+   </a>
+   </div>
+ </div>
+  </section>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
